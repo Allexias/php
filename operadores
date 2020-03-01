@@ -1,0 +1,35 @@
+<?php
+
+$a = 55.0;
+
+$b = 55;
+
+var_dump($a > $b);
+
+echo "<br>";
+
+var_dump($a < $b);
+
+echo "<br>";
+
+var_dump($a == $b);
+// 1 = só é atribuidor de atribuição agora 2 == é de comparação
+// == é de compareção de valor NAO DE TIPO
+// 3 === é o operador de igualdade
+
+echo "<br>";
+
+var_dump($a === $b);
+
+echo "<br>";
+
+var_dump($a != $b);
+// esse != operador dizendo que é diferente
+
+echo "<br>";
+
+var_dump($a !== $b);
+
+
+
+?>
